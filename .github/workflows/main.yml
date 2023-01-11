@@ -6,4 +6,4 @@ on:
     
 jobs:
   call-workflow:
-    uses: leesanaa2423/Awesome-TTRSS/.github/workflows/docker-image.yml@main
+    uses: leesanaa2423/Awesome-TTRSS/.github/workflows/docker-image-call.yml@main
