@@ -5,7 +5,7 @@ on:
     branches: [ "master" ]  
     
 jobs:
-  call-workflow-passing-data:
+  call-workflow:
     uses: leesanaa2423/Awesome-TTRSS/.github/workflows/docker-image-call.yml@main
     # with:
     #    config-path: .github/labeler.yml
