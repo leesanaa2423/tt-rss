@@ -1,0 +1,10 @@
+name: Call a reusable workflow
+
+on:
+  push:
+    branches: [ "main" ]
+    
+jobs:
+  call-workflow:
+    uses: leesanaa2423/Awesome-TTRSS/.github/workflows/docker-image.yml@v1
+    
