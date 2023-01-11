@@ -1,0 +1,11 @@
+name: Call a reusable workflow
+
+on:
+  push:
+    branches: [ "master" ]  
+    
+jobs:
+  call-workflow-passing-data:
+    uses: leesanaa2423/Awesome-TTRSS/.github/workflows/docker-image-call.yml@main
+    with:
+      config-path: .github/labeler.yml
