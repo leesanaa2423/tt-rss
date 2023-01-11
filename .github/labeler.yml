@@ -1,1 +1,2 @@
-any: ['./*', './src/*']
+deployment:
+- any: ['./*', './src/*']
