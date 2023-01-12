@@ -5,7 +5,7 @@
 		print "<b>Fatal Error</b>: PHP version 7.4.0 or newer required. You're using " . PHP_VERSION . ".\n";
 		exit;
 	}
-
+// test
 	set_include_path(__DIR__ ."/include" . PATH_SEPARATOR .
 		get_include_path());
 
