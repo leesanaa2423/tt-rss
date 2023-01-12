@@ -1,4 +1,5 @@
 #!/usr/bin/env php
+<!-- test -->
 <?php
 	set_include_path(__DIR__ ."/include" . PATH_SEPARATOR .
 		get_include_path());
