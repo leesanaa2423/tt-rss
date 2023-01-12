@@ -579,7 +579,7 @@ const Headlines = {
 			<div onclick="return Headlines.click(event, ${hl.id})" class="title">
 				${App.getInitParam("debug_headline_ids") ? `<span class="text-muted small">A: ${hl.id} F: ${hl.feed_id}</span>` : ""}
 				<span data-article-id="${hl.id}" class="hl-content hlMenuAttach">
-					<a class="title" href="${App.escapeHtml(hl.link)}">${hl.title} <span class="preview">${hl.content_preview}</span></a>
+					<a class="title" href="${App.escapeHtml(hl.link)}">${hl.title} <span class="preview">test ${hl.content_preview}</span></a>
 					<span class="author">${hl.author}</span>
 					${Article.renderLabels(hl.id, hl.labels)}
 				</span>
